@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libKDC101_SOCKET.a"
+)

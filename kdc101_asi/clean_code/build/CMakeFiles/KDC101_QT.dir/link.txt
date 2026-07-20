@@ -1,0 +1,3 @@
+E:\software\CMake\bin\cmake.exe -E rm -f CMakeFiles\KDC101_QT.dir/objects.a
+E:\software\HS\mingw64posix_1120\bin\ar.exe qc CMakeFiles\KDC101_QT.dir/objects.a @CMakeFiles\KDC101_QT.dir\objects1.rsp
+E:\software\HS\mingw64posix_1120\bin\g++.exe -g -O0 -Wall -g -Wl,-subsystem,console -Wl,--whole-archive CMakeFiles\KDC101_QT.dir/objects.a -Wl,--no-whole-archive -o KDC101_QT.exe -Wl,--out-implib,libKDC101_QT.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\KDC101_QT.dir\linkLibs.rsp

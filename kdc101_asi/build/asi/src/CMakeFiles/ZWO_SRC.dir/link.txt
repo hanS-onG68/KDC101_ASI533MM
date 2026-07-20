@@ -1,0 +1,2 @@
+E:\software\HS\mingw64posix_1120\bin\ar.exe qc libZWO_SRC.a CMakeFiles/ZWO_SRC.dir/old_method/asi_func.cpp.obj CMakeFiles/ZWO_SRC.dir/asi_opencv.cpp.obj CMakeFiles/ZWO_SRC.dir/asi_convert.cpp.obj CMakeFiles/ZWO_SRC.dir/asi_find_center.cpp.obj CMakeFiles/ZWO_SRC.dir/C_/Users/admin/Desktop/HS/Code/log/log.cpp.obj
+E:\software\HS\mingw64posix_1120\bin\ranlib.exe libZWO_SRC.a

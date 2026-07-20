@@ -1,0 +1,3 @@
+C:/Users/admin/Desktop/HS/Code/kdc101_asi/clean_code/build/CMakeFiles/KDC101_QT.dir
+C:/Users/admin/Desktop/HS/Code/kdc101_asi/clean_code/build/CMakeFiles/edit_cache.dir
+C:/Users/admin/Desktop/HS/Code/kdc101_asi/clean_code/build/CMakeFiles/rebuild_cache.dir

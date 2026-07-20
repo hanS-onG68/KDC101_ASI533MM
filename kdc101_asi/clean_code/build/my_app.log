@@ -1,0 +1,130 @@
+[2026-07-20 16:27:54.278] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:79] Successfully loaded DLL: ./../sdk/ASICamera2.dll
+[2026-07-20 16:27:54.286] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\main.cpp:132] number of connected cameras is 1
+[2026-07-20 16:27:54.290] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:188] get camera info successfully, camear id = 0
+[2026-07-20 16:27:54.291] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:190] Camera info is:
+ Name = ZWO ASI533MM,
+ Id = 0,
+ MaxHeight = 3008,
+ MaxWidth = 3008,
+ (0:ASI_FALSE)IsColorCam = 0,
+ (0:ASI_BAYER_RG, 1:ASI_BAYER_BG, 2:ASI_BAYER_GR, 3:ASI_BAYER_GB)BayerPattern = 0,
+ PixelSize = 3.76,
+ (0:ASI_FALSE)MechanicalShutter = 0,
+ (0:ASI_FALSE)ST4Port = 1,
+ (0:ASI_FALSE)IsCoolerCam = 0,
+ (0:ASI_FALSE)IsUSB3Host = 1,
+ (0:ASI_FALSE)IsUSB3Camera = 1,
+ ElecPerADU = 0.100560434,
+ BitDepth = 14,
+ (0:ASI_FALSE)IsTriggerCam = 0,
+ Unused = 
+[2026-07-20 16:27:54.298] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:241] open camera successfully, camear id = 0
+[2026-07-20 16:27:54.629] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:248] init camera successfully, camear id = 0
+[2026-07-20 16:27:54.631] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:256] get num of controls successfully, camear id = 0,  the num of controls is 10
+[2026-07-20 16:27:54.631] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:217] control index = 0, its info is:
+ Name = Gain,
+ Description = Gain,
+ MaxValue = 600,
+ MinValue = 0,
+ DefaultValue = 200,
+(0:ASI_FALSE)IsAutoSupported = 1,
+ (0:ASI_FALSE)IsWritable = 1,
+ ControlType = ASI_GAIN
+[2026-07-20 16:27:54.631] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:229] get control value successfully, controlIndex = 0, ControlType = ASI_GAIN, value = 300
+[2026-07-20 16:27:54.631] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:217] control index = 1, its info is:
+ Name = Exposure,
+ Description = Exposure Time(us),
+ MaxValue = 2000000000,
+ MinValue = 32,
+ DefaultValue = 10000,
+(0:ASI_FALSE)IsAutoSupported = 1,
+ (0:ASI_FALSE)IsWritable = 1,
+ ControlType = ASI_EXPOSURE
+[2026-07-20 16:27:54.631] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:229] get control value successfully, controlIndex = 1, ControlType = ASI_EXPOSURE, value = 100000
+[2026-07-20 16:27:54.631] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:217] control index = 2, its info is:
+ Name = Offset,
+ Description = offset,
+ MaxValue = 100,
+ MinValue = 0,
+ DefaultValue = 1,
+(0:ASI_FALSE)IsAutoSupported = 0,
+ (0:ASI_FALSE)IsWritable = 1,
+ ControlType = ASI_OFFSET
+[2026-07-20 16:27:54.631] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:229] get control value successfully, controlIndex = 2, ControlType = ASI_OFFSET, value = 1
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:217] control index = 3, its info is:
+ Name = BandWidth,
+ Description = The total data transfer rate percentage,
+ MaxValue = 100,
+ MinValue = 40,
+ DefaultValue = 50,
+(0:ASI_FALSE)IsAutoSupported = 1,
+ (0:ASI_FALSE)IsWritable = 1,
+ ControlType = ASI_BANDWIDTHOVERLOAD
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:229] get control value successfully, controlIndex = 3, ControlType = ASI_BANDWIDTHOVERLOAD, value = 100
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:217] control index = 4, its info is:
+ Name = Flip,
+ Description = Flip: 0->None 1->Horiz 2->Vert 3->Both,
+ MaxValue = 3,
+ MinValue = 0,
+ DefaultValue = 0,
+(0:ASI_FALSE)IsAutoSupported = 0,
+ (0:ASI_FALSE)IsWritable = 1,
+ ControlType = ASI_FLIP
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:229] get control value successfully, controlIndex = 4, ControlType = ASI_FLIP, value = 0
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:217] control index = 5, its info is:
+ Name = AutoExpMaxGain,
+ Description = Auto exposure maximum gain value,
+ MaxValue = 600,
+ MinValue = 0,
+ DefaultValue = 300,
+(0:ASI_FALSE)IsAutoSupported = 0,
+ (0:ASI_FALSE)IsWritable = 1,
+ ControlType = ASI_AUTO_MAX_GAIN
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:229] get control value successfully, controlIndex = 5, ControlType = ASI_AUTO_MAX_GAIN, value = 300
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:217] control index = 6, its info is:
+ Name = AutoExpMaxExpMS,
+ Description = Auto exposure maximum exposure value(unit ms),
+ MaxValue = 60000,
+ MinValue = 1,
+ DefaultValue = 100,
+(0:ASI_FALSE)IsAutoSupported = 0,
+ (0:ASI_FALSE)IsWritable = 1,
+ ControlType = ASI_AUTO_MAX_EXP
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:229] get control value successfully, controlIndex = 6, ControlType = ASI_AUTO_MAX_EXP, value = 30000
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:217] control index = 7, its info is:
+ Name = AutoExpTargetBrightness,
+ Description = Auto exposure target brightness value,
+ MaxValue = 160,
+ MinValue = 50,
+ DefaultValue = 100,
+(0:ASI_FALSE)IsAutoSupported = 0,
+ (0:ASI_FALSE)IsWritable = 1,
+ ControlType = ASI_AUTO_TARGET_BRIGHTNESS
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:229] get control value successfully, controlIndex = 7, ControlType = ASI_AUTO_TARGET_BRIGHTNESS, value = 100
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:217] control index = 8, its info is:
+ Name = HardwareBin,
+ Description = Is hardware bin2:0->No 1->Yes,
+ MaxValue = 1,
+ MinValue = 0,
+ DefaultValue = 0,
+(0:ASI_FALSE)IsAutoSupported = 0,
+ (0:ASI_FALSE)IsWritable = 1,
+ ControlType = ASI_HARDWARE_BIN
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:229] get control value successfully, controlIndex = 8, ControlType = ASI_HARDWARE_BIN, value = 0
+[2026-07-20 16:27:54.632] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:217] control index = 9, its info is:
+ Name = Temperature,
+ Description = Sensor temperature(degrees Celsius),
+ MaxValue = 1000,
+ MinValue = -500,
+ DefaultValue = 20,
+(0:ASI_FALSE)IsAutoSupported = 0,
+ (0:ASI_FALSE)IsWritable = 0,
+ ControlType = ASI_TEMPERATURE
+[2026-07-20 16:27:54.633] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:229] get control value successfully, controlIndex = 9, ControlType = ASI_TEMPERATURE, value = 313
+[2026-07-20 16:27:54.633] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:267] get ROI Format successfully before setting, CameraID = 0, width = 3008, height = 3008, bin = 1, imgType = 0
+[2026-07-20 16:27:54.659] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:274] set ROI Format successfully, CameraID = 0, width = 3008, height = 3008, bin = 1, imgType = 0
+[2026-07-20 16:27:54.659] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:281] get ROI Format successfully after setting, CameraID = 0, width = 3008, height = 3008, bin = 1, imgType = 0
+[2026-07-20 16:27:54.665] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:291] set start position successfully, CameraID = 0, startX = 0, startY = 0
+[2026-07-20 16:27:54.665] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:25] support mode: ASI_MODE_NORMAL
+[2026-07-20 16:27:54.666] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_func.cpp:311] set camera mode successfully, CameraID = 0, mode = ASI_MODE_NORMAL
+[2026-07-20 16:27:54.666] [info] [C:\Users\admin\Desktop\HS\Code\kdc101_asi\clean_code\asi_fun

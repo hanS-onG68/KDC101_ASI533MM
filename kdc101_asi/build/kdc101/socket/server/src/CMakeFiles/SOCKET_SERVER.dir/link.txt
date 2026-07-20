@@ -1,0 +1,2 @@
+E:\software\HS\mingw64posix_1120\bin\ar.exe qc libSOCKET_SERVER.a CMakeFiles/SOCKET_SERVER.dir/server.cpp.obj CMakeFiles/SOCKET_SERVER.dir/__/__/__/api/src/tlmc_func.cpp.obj
+E:\software\HS\mingw64posix_1120\bin\ranlib.exe libSOCKET_SERVER.a

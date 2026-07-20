@@ -1,0 +1,2 @@
+E:\software\HS\mingw64posix_1120\bin\ar.exe qc libKDC101_SOCKET.a CMakeFiles/KDC101_SOCKET.dir/socket.cpp.obj CMakeFiles/KDC101_SOCKET.dir/__/client/src/client.cpp.obj CMakeFiles/KDC101_SOCKET.dir/__/server/src/server.cpp.obj
+E:\software\HS\mingw64posix_1120\bin\ranlib.exe libKDC101_SOCKET.a

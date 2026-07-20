@@ -1,0 +1,17 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/cmake_install.cmake",
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/kdc101/cmake_install.cmake",
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/kdc101/socket/cmake_install.cmake",
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/kdc101/socket/src/cmake_install.cmake",
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/kdc101/socket/server/cmake_install.cmake",
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/kdc101/socket/server/src/cmake_install.cmake",
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/kdc101/socket/client/cmake_install.cmake",
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/kdc101/socket/client/src/cmake_install.cmake",
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/kdc101/qt/cmake_install.cmake",
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/asi/cmake_install.cmake",
+		"C:/Users/admin/Desktop/HS/Code/kdc101_asi/build/asi/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

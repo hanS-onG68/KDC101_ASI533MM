@@ -1,0 +1,2 @@
+E:\software\HS\mingw64posix_1120\bin\ar.exe qc libSOCKET_CLIENT.a CMakeFiles/SOCKET_CLIENT.dir/client.cpp.obj
+E:\software\HS\mingw64posix_1120\bin\ranlib.exe libSOCKET_CLIENT.a
